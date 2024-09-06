@@ -11,7 +11,7 @@ public class Main{
 
     }
     public static void askMax(){
-        while(true){
+        while(num!=962024){
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter a integer, type 962024 to end the loop");
             try{
