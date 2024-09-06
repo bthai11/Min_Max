@@ -6,6 +6,7 @@ They'll type in
 10
 20
 15
+"Hello"
 100
 99
 101
