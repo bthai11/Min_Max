@@ -19,7 +19,8 @@ public class Main{
             }
             catch(Exception e){
                 System.out.println("That is not a valid input.");
-            }
+            } // To figure out what this try/catch does. Attempt to comment out lines all the lines between here and the "enter integer", except for the num = sc.nextInt()
+            // Run the code and try a bunch of different inputs.
 
             if(num>max){
                 max = num;
@@ -27,6 +28,8 @@ public class Main{
             }
             else{
                 System.out.println(num + " is not larger than the old max of " + max + "\n\n");
+                //once you get a chance to type here try to uncomment the line below and guess what happens
+                //break;
             }
             
         }
@@ -71,4 +74,5 @@ public class Main{
 
 
 
-OOOOOOgaaaBooogaBoooga Thou shau not run
+OOOOOOgaaaBooogaBoooga Thou shau not run comment this out later to test code
+//When you finally run the code try a bunch of inputs, such as strings, doubles, booleans and see what happens in the code.
