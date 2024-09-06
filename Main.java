@@ -10,7 +10,7 @@ public class Main{
         askMax();
 
     }
-    public static int askMax(){
+    public static void askMax(){
         while(true){
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter a integer, type 962024 to end the loop");
